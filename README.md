@@ -34,7 +34,7 @@ Welcome to the **Binary Search Project**! This project demonstrates a simple imp
 To compile the program, use the following command:
 
 ```bash
-gcc -o binary_search main.c -lm
+gcc main.c -o main.o -lm
 ```
 
 ### Execution
@@ -42,7 +42,7 @@ gcc -o binary_search main.c -lm
 Run the program with the following syntax:
 
 ```bash
-./binary_search "<sorted_array>" <target>
+./main.o "<sorted_array>" <target>
 ```
 
 - `<sorted_array>`: A comma-separated string of integers (e.g., `1,3,5,7,9`).
@@ -51,7 +51,7 @@ Run the program with the following syntax:
 ### Example
 
 ```bash
-./binary_search "1,3,5,7,9" 5
+./main.o "1,3,5,7,9" 5
 ```
 
 **Output**:
